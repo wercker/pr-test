@@ -1,0 +1,7 @@
+box: node:slim
+
+build:
+    steps:
+        - script:
+            code: echo "first build"
+
