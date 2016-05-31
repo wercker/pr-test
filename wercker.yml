@@ -1,0 +1,8 @@
+box: node:slim
+
+build:
+    steps:
+        - script:
+            name: test
+            code: echo "test"
+
